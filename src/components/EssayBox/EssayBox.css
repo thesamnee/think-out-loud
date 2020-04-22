@@ -1,0 +1,6 @@
+.EssayBox{
+    height: 80vh;
+    width: 30vw;
+    overflow: scroll;
+    border-radius: 30px;
+}
