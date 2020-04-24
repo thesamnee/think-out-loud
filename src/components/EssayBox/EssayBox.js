@@ -22,7 +22,7 @@ class EssayBox extends Component {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <textarea className="EssayBox" cols="60" rows="50" type="text" onChange={this.handleChange} onSubmit={this.handleSubmit}></textarea>
+                    <textarea placeholder="What's on your mind?" className="EssayBox" cols="60" rows="40" type="text" onChange={this.handleChange} onSubmit={this.handleSubmit}></textarea>
                     <input className="button rememberBtn" type="submit" value="Remember"></input>
                 </form>
             </div>
