@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './EssayBox'
+import './EssayBox.css'
 
 class EssayBox extends Component {
     constructor(props) {
@@ -22,8 +22,8 @@ class EssayBox extends Component {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <input className="EssayBox" type="text" onChange={this.handleChange} onSubmit={this.handleSubmit}></input>
-                    <input type="submit" value="Remember"></input>
+                    <textarea className="EssayBox" cols="60" rows="50" type="text" onChange={this.handleChange} onSubmit={this.handleSubmit}></textarea>
+                    <input className="button rememberBtn" type="submit" value="Remember"></input>
                 </form>
             </div>
         )

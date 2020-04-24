@@ -1,6 +1,29 @@
 .EssayBox{
-    height: 80vh;
-    width: 30vw;
-    overflow: scroll;
+    overflow: auto;
     border-radius: 30px;
+    position: relative;
+    margin-top: 15vh;
 }
+.rememberBtn{
+    position: relative;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 30px;
+  }
+   
+  Handle
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 55, 63); 
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px rgb(0, 0, 0), 0px -3px 20px rgb(253, 0, 0);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+  }
